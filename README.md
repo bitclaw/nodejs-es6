@@ -27,3 +27,10 @@ yarn add -D babel-cli babel-preset-es2015 nodemon
 npm run dev
 yarn run dev
 ```
+
+## Build
+
+```shell
+npm run build
+yarn run build
+```
