@@ -20,3 +20,10 @@ YARN
 ```shell
 yarn add -D babel-cli babel-preset-es2015 nodemon
 ```
+
+## Run dev server
+
+```shell
+npm run dev
+yarn run dev
+```
