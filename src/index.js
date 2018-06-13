@@ -1,4 +1,8 @@
 import http from 'http';
+import dotenv from 'dotenv'
+
+const env = dotenv.config({path: '.env'});
+console.log(env)
 
 http.createServer((req,res) => {
   res.writeHead(200,{'Content-type': 'text/plain'});
